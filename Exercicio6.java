@@ -1,11 +1,21 @@
-package Exercicios15;
-import java.util.Scanner;
+package Exerciciodif;
+
 public class Exercicio6 {
 	public static void main(String[] args) {
-		Scanner ler=new Scanner(System.in);
 		final int TAM=11;
-		int a[],i,num,num1,expoente;
+		int a[],b=2,b1=1,i;
 		a=new int[TAM];
-		
+		for(i=0; i<TAM; i++) {
+		b1=b*b1;
+		a[i]=b1;
+		}
+		a[0]=1;
+		System.out.print("o valor  do vetor a= [" );
+		for(i=0; i<TAM;i++) {
+		System.out.print(" "+a[i] );	
+		}
+		System.out.println(" ] ");
+
 	}
+
 }
