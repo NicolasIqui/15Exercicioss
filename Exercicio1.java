@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Exercicio1 {
 	public static void main(String[] args) {
 		Scanner ler=new Scanner(System.in);
-		 final int TAM=5;
+		 final int TAM=20;
 		 int a[],b[],i;
 		 a=new int [TAM];
 		 b=new int [TAM];
