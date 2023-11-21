@@ -23,7 +23,8 @@ public class Exercicio1 {
 			for(i=0; i<TAM;i++) {
 			System.out.print(" "+a[i] );	
 			}
-			System.out.println(" ] ");	System.out.print("o valor  do vetor b= [" );
+			System.out.println(" ] ");	
+		System.out.print("o valor  do vetor b= [" );
 			for(i=0; i<TAM;i++) {
 				if(b[i]==0) {
 				System.out.print("");
